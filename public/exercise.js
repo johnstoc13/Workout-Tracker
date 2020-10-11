@@ -116,6 +116,8 @@ async function handleFormSubmit(event) {
 
   await API.addExercise(workoutData);
   clearInputs();
+  completeButton.setAttribute("disabled", true);
+  addButton.setAttribute("disabled", true);
   toast.classList.add("success");
 }
 
