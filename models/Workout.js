@@ -11,16 +11,16 @@ const WorkoutSchema = new Schema({
             type: {
                 type: String,
                 trim: true,
-                required: "Please enter an exercise type!"
+                required: [true, "Please enter an exercise type!"]
             },
             name: {
                 type: String,
                 trim: true,
-                required: "Please enter an exercise name!"
+                required: [true, "Please enter an exercise name!"]
             },
             duration: {
                 type: Number,
-                required: "Please enter duration in minutes!"
+                required: [true, "Please enter duration in minutes!"]
             },
             weight: {
                 type: Number
@@ -50,6 +50,6 @@ WorkoutSchema.virtual("totalDuration").get(function () {
         return total + exercise.duration;
     }, 0);
 });
-const Workout = mongoose.model("Workout", WorkoutSchema);
 
+const Workout = mongoose.model("Workout", WorkoutSchema);
 module.exports = Workout;
