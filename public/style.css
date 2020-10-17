@@ -27,7 +27,7 @@ nav {
   height: 80px;
   padding: 10px;
   line-height: 3;
-  font-size: 1.2rem;
+  font-size: 18px;
 }
 
 a,
@@ -102,7 +102,6 @@ input {
 
 .wrapper {
   background-color: #f2f8ff;
-  /* padding-bottom: 100px; */
 }
 
 .card.m-auto,
@@ -373,10 +372,6 @@ form > button {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
-/* .workout .card {
-  width: 350px;
-} */
 
 .prev-workout button {
   margin: 10px;
