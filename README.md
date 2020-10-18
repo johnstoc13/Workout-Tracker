@@ -37,10 +37,10 @@ Heroku - https://www.heroku.com/
 ## Images
 
 ### Home Page
-<img width="1294" alt="Home Page" src="https://user-images.githubusercontent.com/66090689/95680282-775d1e00-0ba6-11eb-8e7f-b2037454c4ea.png">
+<img width="1493" alt="main" src="https://user-images.githubusercontent.com/66090689/96375441-063ddd80-1147-11eb-8013-079888c162d9.png">
 
 ### Stats
-<img width="1297" alt="Stats" src="https://user-images.githubusercontent.com/66090689/95680283-77f5b480-0ba6-11eb-8dbf-e230785ea950.png">
+<img width="1496" alt="stats" src="https://user-images.githubusercontent.com/66090689/96375443-076f0a80-1147-11eb-8a30-e05ea9399023.png">
 
 ## License
 
