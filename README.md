@@ -5,7 +5,7 @@
 
 This application allows the user to track daily workouts! Multiple exercises can be logged for each workout on any given day. It also tracks the name and type of the exercise, weight, sets, reps, and distance. Charts also provide a snapshot of total workout duration and total weight lifted. Enjoy your next workout!
 
-Tech Used: Bootstrap, Font Awesome, Animate.css, Javascript, jQuery, Node.js, Express.js, MySQL, Handlebars
+Tech Used: Bootstrap, Font Awesome, Javascript, jQuery, Node.js, Express.js, MongoDB, Mongoose, Heroku
 
 ## Table of Contents
 - [Description](#description)
